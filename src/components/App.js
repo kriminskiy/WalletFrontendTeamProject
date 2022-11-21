@@ -7,7 +7,7 @@ import { HomeTab } from './homeTab/homeTab';
 import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import { authOperations } from '../redux/auth';
-import PublicOutlet from '../components/PublicRoute';
+import PublicOutlet from './PublicRoute';
 
 function App() {
   const dispatch = useDispatch();
